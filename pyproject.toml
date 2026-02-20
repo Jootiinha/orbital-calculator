@@ -1,0 +1,18 @@
+[project]
+name = "orbital-calculator"
+version = "0.1.0"
+description = "Projeto para calcular orbitas de planetas"
+authors = [
+    {name = "Joao Monteiro",email = "joao.monteiro@norta.com.br"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.4.2,<3.0.0)",
+    "matplotlib (>=3.10.8,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
